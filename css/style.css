@@ -1,0 +1,149 @@
+html, body, body div, div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, img, s, small, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, button, form, fieldset, article, aside, footer, header, main, nav, section, input, textarea, select, option {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+html * {
+    max-height: 1000000px;
+}
+html {
+    height: 100%;
+}
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Dosis-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/RubikDirt-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'MarckScript';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MarckScript-Regular.woff2') format('woff2');
+}
+body {
+    height: 100%;
+    background: #f5f5dc;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis', 'Arial', 'Sans serif';
+}
+header {
+    height: auto;
+    flex: none;
+    background-color: #0f0f0d;
+    padding: 5px;
+    margin: 0 0 20px 0;
+}
+div.container {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    margin: 0 5px;
+}
+.menu-item {
+    font-family: 'Rubik';
+    padding: 0 5px;
+    align-self: center;
+}
+.menu, .link {
+   text-decoration: none;
+   color: white;
+}
+.logo {
+    width: 55px;
+    height: 55px;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.phone:before {
+    content: "\260E";
+}
+.mail:before {
+    content:"\2709";
+}
+main {
+    flex: auto;
+    font-family: 'Marck Script', cursive;
+}
+.page {
+    min-width: 710px;
+}
+h1 { 
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 300;
+    color: #0f0f0d;
+}
+.foto {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+}
+.main {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    gap: 10px;
+    margin: 20px 0;
+}
+p {
+margin-top: 10px;
+margin-bottom:  10px;
+border: 0;
+}
+p>a {   
+        text-decoration: underline 3px dotted pink;
+    }
+.text {
+    width: 500px;
+    background: #FFFFF0;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.text-block {
+    list-style-type: none;
+    padding: 5px 0 5px 40px; 
+}
+
+.works {
+    text-decoration: none;
+    color: rgb(128, 0, 0);
+}
+footer {
+    height: 60px;
+    line-height: 50px;
+    flex: none;
+    background-color: #0f0f0d;
+    color: white;
+    text-align: center;
+}
+
